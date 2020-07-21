@@ -358,11 +358,11 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#AgentRelationship> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#AgentRelationship> <http://www.w3.org/2000/01/rdf-schema#comment> "An ongoing voluntary association between 2 agents of any kind." .
 <https://w3id.org/valueflows#AgentRelationship> <http://www.w3.org/2000/01/rdf-schema#label> "vf:AgentRelationship" .
-<https://w3id.org/valueflows#AgentRelationship> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#AgentRelationship> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2000/01/rdf-schema#comment> "A relationship role defining the kind of association one agent can have with another." .
 <https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2000/01/rdf-schema#label> "vf:AgentRelationshipRole" .
-<https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#AgentRelationshipRole> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#Agreement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Agreement> <http://www.w3.org/2000/01/rdf-schema#comment> "Any type of agreement among economic agents." .
 <https://w3id.org/valueflows#Agreement> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Agreement" .
@@ -378,19 +378,19 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#Commitment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Commitment> <http://www.w3.org/2000/01/rdf-schema#comment> "A planned economic flow that has been promised by an agent to another agent." .
 <https://w3id.org/valueflows#Commitment> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Commitment" .
-<https://w3id.org/valueflows#Commitment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#Commitment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <https://w3id.org/valueflows#EconomicEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#EconomicEvent> <http://www.w3.org/2000/01/rdf-schema#comment> "An observed economic flow, as opposed to a flow planned to happen in the future. This could reflect a change in the quantity of an economic resource. It is also defined by its behavior in relation to the economic resource (see vf:action)" .
 <https://w3id.org/valueflows#EconomicEvent> <http://www.w3.org/2000/01/rdf-schema#label> "vf:EconomicEvent" .
-<https://w3id.org/valueflows#EconomicEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#EconomicEvent> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <https://w3id.org/valueflows#EconomicResource> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#EconomicResource> <http://www.w3.org/2000/01/rdf-schema#comment> "A resource which is useful to people or the ecosystem." .
 <https://w3id.org/valueflows#EconomicResource> <http://www.w3.org/2000/01/rdf-schema#label> "vf:EconomicResource" .
-<https://w3id.org/valueflows#EconomicResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#EconomicResource> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2000/01/rdf-schema#comment> "Represents many-to-many relationships between commitments and economic events that fully or partially satisfy one or more commitments." .
 <https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Fulfillment" .
-<https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#Fulfillment> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#InputOutput> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#InputOutput> <http://www.w3.org/2000/01/rdf-schema#comment> "The action is an input or output of a process, or not related to a process." .
 <https://w3id.org/valueflows#InputOutput> <http://www.w3.org/2000/01/rdf-schema#label> "vf:InputOutput" .
@@ -410,7 +410,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#comment> "An activity that changes inputs into outputs.  It could transform or transport economic resource(s)." .
 <https://w3id.org/valueflows#Process> <http://www.w3.org/2000/01/rdf-schema#label> "vf:Process" .
-<https://w3id.org/valueflows#Process> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
+<https://w3id.org/valueflows#Process> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "stable" .
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies the kind of process." .
 <https://w3id.org/valueflows#ProcessSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ProcessSpecification" .
@@ -434,7 +434,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#comment> "The specification of a resource inflow to, or outflow from, a recipe process." .
 <https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeFlow" .
-<https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#RecipeFlow> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#comment> "Specifies a process in a recipe for use in planning from recipe." .
 <https://w3id.org/valueflows#RecipeProcess> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RecipeProcess" .
@@ -450,7 +450,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2000/01/rdf-schema#comment> "Specification of a kind of resource. Could define a material item, service, digital item, currency account, etc." .
 <https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2000/01/rdf-schema#label> "vf:ResourceSpecification" .
-<https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#ResourceSpecification> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#RoleBehavior> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/valueflows#RoleBehavior> <http://www.w3.org/2000/01/rdf-schema#comment> "The general shape or behavior grouping of an agent relationship role." .
 <https://w3id.org/valueflows#RoleBehavior> <http://www.w3.org/2000/01/rdf-schema#label> "vf:RoleBehavior" .
@@ -476,7 +476,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification or testing, the same resource will appear in the output." .
 <https://w3id.org/valueflows#accept> <http://www.w3.org/2000/01/rdf-schema#label> "accept" .
-<https://w3id.org/valueflows#accept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#accept> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#accept> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#input> .
 <https://w3id.org/valueflows#accept> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#decrement> .
 <https://w3id.org/valueflows#accept> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#modify> .
@@ -533,7 +533,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#comment> "For example a design file, neither used nor consumed, the file remains available at all times." .
 <https://w3id.org/valueflows#cite> <http://www.w3.org/2000/01/rdf-schema#label> "cite" .
-<https://w3id.org/valueflows#cite> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#cite> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#cite> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#input> .
 <https://w3id.org/valueflows#cite> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#cite> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
@@ -560,7 +560,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#comment> "For example an ingredient or component composed into the output, after the process the ingredient is gone." .
 <https://w3id.org/valueflows#consume> <http://www.w3.org/2000/01/rdf-schema#label> "consume" .
-<https://w3id.org/valueflows#consume> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#consume> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#consume> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#input> .
 <https://w3id.org/valueflows#consume> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#decrement> .
 <https://w3id.org/valueflows#consume> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
@@ -757,7 +757,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#PairsWith> .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#comment> "In processes like repair or modification, the same resource will appear in the input." .
 <https://w3id.org/valueflows#modify> <http://www.w3.org/2000/01/rdf-schema#label> "modify" .
-<https://w3id.org/valueflows#modify> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#modify> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#modify> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#output> .
 <https://w3id.org/valueflows#modify> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#increment> .
 <https://w3id.org/valueflows#modify> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#accept> .
@@ -776,7 +776,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#name> <http://www.w3.org/2000/01/rdf-schema#domain> _:b113 .
 <https://w3id.org/valueflows#name> <http://www.w3.org/2000/01/rdf-schema#label> "name" .
 <https://w3id.org/valueflows#name> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
-<https://w3id.org/valueflows#name> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#name> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#nestedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://w3id.org/valueflows#nestedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The process with its inputs and outputs is part of the scenario." .
 <https://w3id.org/valueflows#nestedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/valueflows#Process> .
@@ -878,7 +878,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#comment> "New resource was created in that process or an existing stock resource was added to." .
 <https://w3id.org/valueflows#produce> <http://www.w3.org/2000/01/rdf-schema#label> "produce" .
-<https://w3id.org/valueflows#produce> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#produce> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#produce> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#output> .
 <https://w3id.org/valueflows#produce> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#increment> .
 <https://w3id.org/valueflows#produce> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
@@ -1143,7 +1143,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#use> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#use> <http://www.w3.org/2000/01/rdf-schema#comment> "For example a tool used in process; after the process, the tool still exists." .
 <https://w3id.org/valueflows#use> <http://www.w3.org/2000/01/rdf-schema#label> "use" .
-<https://w3id.org/valueflows#use> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#use> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#use> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#input> .
 <https://w3id.org/valueflows#use> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#use> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
@@ -1152,7 +1152,7 @@ _:b99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b100 .
 <https://w3id.org/valueflows#work> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/valueflows#Action> .
 <https://w3id.org/valueflows#work> <http://www.w3.org/2000/01/rdf-schema#comment> "Labor power applied to a process." .
 <https://w3id.org/valueflows#work> <http://www.w3.org/2000/01/rdf-schema#label> "work" .
-<https://w3id.org/valueflows#work> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "unstable" .
+<https://w3id.org/valueflows#work> <http://www.w3.org/2003/06/sw-vocab-status/ns#term_status> "testing" .
 <https://w3id.org/valueflows#work> <https://w3id.org/valueflows#inputOutput> <https://w3id.org/valueflows#input> .
 <https://w3id.org/valueflows#work> <https://w3id.org/valueflows#onhandEffect> <https://w3id.org/valueflows#noEffect> .
 <https://w3id.org/valueflows#work> <https://w3id.org/valueflows#pairsWith> <https://w3id.org/valueflows#notApplicable> .
